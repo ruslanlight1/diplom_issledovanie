@@ -1,0 +1,6 @@
+Flask
+Flask-SQLAlchemy
+gunicorn
+opencv-python
+numpy
+psycopg2-binary

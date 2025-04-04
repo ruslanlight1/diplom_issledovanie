@@ -1,0 +1,1366 @@
+[
+  {
+    "timestamp": "2025-04-02T23:04:57.606614",
+    "filename": "712ee002a7d449a1ad1a776558ed3267.png",
+    "features": {
+      "total_fill_ratio": 0.0,
+      "left_ratio": 0.0,
+      "right_ratio": 0.0,
+      "fill_center": 0.0,
+      "outline_detected": false,
+      "outline_ratio": 0.0,
+      "num_fragments": 0,
+      "matched_fragment_ids": [],
+      "small_fragments": 0,
+      "outside_ratio": 0.020386820139746784
+    },
+    "levels": {
+      "suicidal": 0,
+      "anxiety": 20,
+      "depression": 0
+    },
+    "overall": "🟢 Эмоциональный баланс в норме.",
+    "matched_ids": []
+  },
+  {
+    "timestamp": "2025-04-02T23:05:12.327397",
+    "filename": "0e9eed68f0a14fdf99f962284734333d.png",
+    "features": {
+      "total_fill_ratio": 0.0,
+      "left_ratio": 0.0,
+      "right_ratio": 0.0,
+      "fill_center": 0.0,
+      "outline_detected": false,
+      "outline_ratio": 1.0,
+      "num_fragments": 0,
+      "matched_fragment_ids": [],
+      "small_fragments": 0,
+      "outside_ratio": 0.09811361452634469
+    },
+    "levels": {
+      "suicidal": 0,
+      "anxiety": 20,
+      "depression": 0
+    },
+    "overall": "🟢 Эмоциональный баланс в норме.",
+    "matched_ids": []
+  },
+  {
+    "timestamp": "2025-04-02T23:05:19.051844",
+    "filename": "7a32f427dbde47b1af41238e9594db4a.png",
+    "features": {
+      "total_fill_ratio": 0.0,
+      "left_ratio": 0.0,
+      "right_ratio": 0.0,
+      "fill_center": 0.0,
+      "outline_detected": false,
+      "outline_ratio": 1.0,
+      "num_fragments": 0,
+      "matched_fragment_ids": [],
+      "small_fragments": 0,
+      "outside_ratio": 0.11260139485329203
+    },
+    "levels": {
+      "suicidal": 0,
+      "anxiety": 30,
+      "depression": 0
+    },
+    "overall": "🟢 Эмоциональный баланс в норме.",
+    "matched_ids": []
+  },
+  {
+    "timestamp": "2025-04-02T23:05:21.818608",
+    "filename": "b9771bffe62c4dbd8d6fc356febb63ac.png",
+    "features": {
+      "total_fill_ratio": 0.0,
+      "left_ratio": 0.0,
+      "right_ratio": 0.0,
+      "fill_center": 0.0,
+      "outline_detected": false,
+      "outline_ratio": 1.0,
+      "num_fragments": 0,
+      "matched_fragment_ids": [],
+      "small_fragments": 0,
+      "outside_ratio": 0.11260139485329203
+    },
+    "levels": {
+      "suicidal": 0,
+      "anxiety": 30,
+      "depression": 0
+    },
+    "overall": "🟢 Эмоциональный баланс в норме.",
+    "matched_ids": []
+  },
+  {
+    "timestamp": "2025-04-02T23:05:22.265844",
+    "filename": "91f8a1ea3aca4a6cb6611bd5873cab27.png",
+    "features": {
+      "total_fill_ratio": 0.0,
+      "left_ratio": 0.0,
+      "right_ratio": 0.0,
+      "fill_center": 0.0,
+      "outline_detected": false,
+      "outline_ratio": 1.0,
+      "num_fragments": 0,
+      "matched_fragment_ids": [],
+      "small_fragments": 0,
+      "outside_ratio": 0.11260139485329203
+    },
+    "levels": {
+      "suicidal": 0,
+      "anxiety": 30,
+      "depression": 0
+    },
+    "overall": "🟢 Эмоциональный баланс в норме.",
+    "matched_ids": []
+  },
+  {
+    "timestamp": "2025-04-02T23:05:22.468957",
+    "filename": "99d149dec3bc488dbfadb29c2434be7f.png",
+    "features": {
+      "total_fill_ratio": 0.0,
+      "left_ratio": 0.0,
+      "right_ratio": 0.0,
+      "fill_center": 0.0,
+      "outline_detected": false,
+      "outline_ratio": 1.0,
+      "num_fragments": 0,
+      "matched_fragment_ids": [],
+      "small_fragments": 0,
+      "outside_ratio": 0.11260139485329203
+    },
+    "levels": {
+      "suicidal": 0,
+      "anxiety": 30,
+      "depression": 0
+    },
+    "overall": "🟢 Эмоциональный баланс в норме.",
+    "matched_ids": []
+  },
+  {
+    "timestamp": "2025-04-02T23:05:22.685864",
+    "filename": "6b78ad29c6e2434c92191ea8f296e11b.png",
+    "features": {
+      "total_fill_ratio": 0.0,
+      "left_ratio": 0.0,
+      "right_ratio": 0.0,
+      "fill_center": 0.0,
+      "outline_detected": false,
+      "outline_ratio": 1.0,
+      "num_fragments": 0,
+      "matched_fragment_ids": [],
+      "small_fragments": 0,
+      "outside_ratio": 0.11260139485329203
+    },
+    "levels": {
+      "suicidal": 0,
+      "anxiety": 30,
+      "depression": 0
+    },
+    "overall": "🟢 Эмоциональный баланс в норме.",
+    "matched_ids": []
+  },
+  {
+    "timestamp": "2025-04-02T23:05:24.210525",
+    "filename": "5abfc588437441e6bbb6dc584092c84f.png",
+    "features": {
+      "total_fill_ratio": 0.0,
+      "left_ratio": 0.0,
+      "right_ratio": 0.0,
+      "fill_center": 0.0,
+      "outline_detected": false,
+      "outline_ratio": 1.1,
+      "num_fragments": 0,
+      "matched_fragment_ids": [],
+      "small_fragments": 0,
+      "outside_ratio": 0.11708205057813859
+    },
+    "levels": {
+      "suicidal": 0,
+      "anxiety": 30,
+      "depression": 0
+    },
+    "overall": "🟢 Эмоциональный баланс в норме.",
+    "matched_ids": []
+  },
+  {
+    "timestamp": "2025-04-02T23:05:26.337791",
+    "filename": "bb08424cd70b4e2f95e93ead43a5a0e6.png",
+    "features": {
+      "total_fill_ratio": 0.0,
+      "left_ratio": 0.0,
+      "right_ratio": 0.0,
+      "fill_center": 0.0,
+      "outline_detected": false,
+      "outline_ratio": 1.1,
+      "num_fragments": 0,
+      "matched_fragment_ids": [],
+      "small_fragments": 0,
+      "outside_ratio": 0.12251701080455712
+    },
+    "levels": {
+      "suicidal": 0,
+      "anxiety": 30,
+      "depression": 0
+    },
+    "overall": "🟢 Эмоциональный баланс в норме.",
+    "matched_ids": []
+  },
+  {
+    "timestamp": "2025-04-02T23:05:29.070575",
+    "filename": "64fe9efb4d7d4b43b353132017e232e1.png",
+    "features": {
+      "total_fill_ratio": 0.0,
+      "left_ratio": 0.0,
+      "right_ratio": 0.0,
+      "fill_center": 0.0,
+      "outline_detected": false,
+      "outline_ratio": 1.1,
+      "num_fragments": 0,
+      "matched_fragment_ids": [],
+      "small_fragments": 0,
+      "outside_ratio": 0.1317724572033649
+    },
+    "levels": {
+      "suicidal": 0,
+      "anxiety": 30,
+      "depression": 0
+    },
+    "overall": "🟢 Эмоциональный баланс в норме.",
+    "matched_ids": []
+  },
+  {
+    "timestamp": "2025-04-02T23:05:40.434485",
+    "filename": "6f60fe2429824434b770cfb5a96cb662.png",
+    "features": {
+      "total_fill_ratio": 0.09419920540233746,
+      "left_ratio": 0.09451301393056902,
+      "right_ratio": 0.09389040182931734,
+      "fill_center": 0.014044455770099499,
+      "outline_detected": true,
+      "outline_ratio": 41.96,
+      "num_fragments": 0,
+      "matched_fragment_ids": [],
+      "small_fragments": 0,
+      "outside_ratio": 0.006013425626344033
+    },
+    "levels": {
+      "suicidal": 0,
+      "anxiety": 10,
+      "depression": 0
+    },
+    "overall": "🟢 Эмоциональный баланс в норме.",
+    "matched_ids": []
+  },
+  {
+    "timestamp": "2025-04-02T23:05:51.473815",
+    "filename": "f280a77ab1cb42898f087d595363123d.png",
+    "features": {
+      "total_fill_ratio": 0.0030521353364298706,
+      "left_ratio": 0.006153738366865564,
+      "right_ratio": 0.0,
+      "fill_center": 0.0,
+      "outline_detected": false,
+      "outline_ratio": 0.97,
+      "num_fragments": 1,
+      "matched_fragment_ids": [
+        1
+      ],
+      "small_fragments": 1,
+      "outside_ratio": 0.0
+    },
+    "levels": {
+      "suicidal": 35,
+      "anxiety": 40,
+      "depression": 0
+    },
+    "overall": "🟠 Лёгкая тревожность и напряжение.",
+    "matched_ids": [
+      1
+    ]
+  },
+  {
+    "timestamp": "2025-04-02T23:05:59.066713",
+    "filename": "1cc0580d50124dd5a80ccc083c85c4e6.png",
+    "features": {
+      "total_fill_ratio": 0.005855234962297152,
+      "left_ratio": 0.009411599855206156,
+      "right_ratio": 0.0023555907936617373,
+      "fill_center": 0.0028030996258672815,
+      "outline_detected": false,
+      "outline_ratio": 0.97,
+      "num_fragments": 2,
+      "matched_fragment_ids": [
+        1,
+        14
+      ],
+      "small_fragments": 2,
+      "outside_ratio": 0.0
+    },
+    "levels": {
+      "suicidal": 35,
+      "anxiety": 40,
+      "depression": 0
+    },
+    "overall": "🟠 Лёгкая тревожность и напряжение.",
+    "matched_ids": [
+      1,
+      14
+    ]
+  },
+  {
+    "timestamp": "2025-04-02T23:06:05.383445",
+    "filename": "f13cc8b9664344978557e608086a8fad.png",
+    "features": {
+      "total_fill_ratio": 0.009810848690535485,
+      "left_ratio": 0.009411599855206156,
+      "right_ratio": 0.010203729876934745,
+      "fill_center": 0.0028030996258672815,
+      "outline_detected": false,
+      "outline_ratio": 0.97,
+      "num_fragments": 3,
+      "matched_fragment_ids": [
+        1,
+        14,
+        15
+      ],
+      "small_fragments": 3,
+      "outside_ratio": 0.0
+    },
+    "levels": {
+      "suicidal": 35,
+      "anxiety": 40,
+      "depression": 0
+    },
+    "overall": "🟠 Лёгкая тревожность и напряжение.",
+    "matched_ids": [
+      1,
+      14,
+      15
+    ]
+  },
+  {
+    "timestamp": "2025-04-02T23:06:10.062656",
+    "filename": "5d8824debfe24b48ac3bf818a5571ad2.png",
+    "features": {
+      "total_fill_ratio": 0.011664137699373356,
+      "left_ratio": 0.009411599855206156,
+      "right_ratio": 0.013880749652406724,
+      "fill_center": 0.0028030996258672815,
+      "outline_detected": false,
+      "outline_ratio": 0.97,
+      "num_fragments": 4,
+      "matched_fragment_ids": [
+        1,
+        14,
+        15,
+        16
+      ],
+      "small_fragments": 4,
+      "outside_ratio": 0.0
+    },
+    "levels": {
+      "suicidal": 40,
+      "anxiety": 0,
+      "depression": 40
+    },
+    "overall": "🟠 Лёгкая тревожность и напряжение.",
+    "matched_ids": [
+      1,
+      14,
+      15,
+      16
+    ]
+  },
+  {
+    "timestamp": "2025-04-02T23:06:27.859557",
+    "filename": "53529a7970b44f439a09169ab639bcb9.png",
+    "features": {
+      "total_fill_ratio": 0.020478843547658485,
+      "left_ratio": 0.02718387650486344,
+      "right_ratio": 0.013880749652406724,
+      "fill_center": 0.0028030996258672815,
+      "outline_detected": false,
+      "outline_ratio": 0.97,
+      "num_fragments": 5,
+      "matched_fragment_ids": [
+        1,
+        14,
+        15,
+        16,
+        5
+      ],
+      "small_fragments": 5,
+      "outside_ratio": 0.0
+    },
+    "levels": {
+      "suicidal": 40,
+      "anxiety": 0,
+      "depression": 40
+    },
+    "overall": "🟠 Лёгкая тревожность и напряжение.",
+    "matched_ids": [
+      1,
+      14,
+      15,
+      16,
+      5
+    ]
+  },
+  {
+    "timestamp": "2025-04-02T23:06:32.047546",
+    "filename": "8365cc4d581d4e8ba5777727b8c9626b.png",
+    "features": {
+      "total_fill_ratio": 0.07871265912223599,
+      "left_ratio": 0.14459533623699483,
+      "right_ratio": 0.013880749652406724,
+      "fill_center": 0.0028030996258672815,
+      "outline_detected": false,
+      "outline_ratio": 2.22,
+      "num_fragments": 5,
+      "matched_fragment_ids": [
+        1,
+        14,
+        15,
+        16,
+        5
+      ],
+      "small_fragments": 5,
+      "outside_ratio": 0.0
+    },
+    "levels": {
+      "suicidal": 40,
+      "anxiety": 0,
+      "depression": 40
+    },
+    "overall": "🟠 Лёгкая тревожность и напряжение.",
+    "matched_ids": [
+      1,
+      14,
+      15,
+      16,
+      5
+    ]
+  },
+  {
+    "timestamp": "2025-04-02T23:06:34.950670",
+    "filename": "f0f1b1f930084579ac694dd89002631a.png",
+    "features": {
+      "total_fill_ratio": 0.10473399511195024,
+      "left_ratio": 0.19705975081446536,
+      "right_ratio": 0.013880749652406724,
+      "fill_center": 0.0028030996258672815,
+      "outline_detected": false,
+      "outline_ratio": 3.86,
+      "num_fragments": 6,
+      "matched_fragment_ids": [
+        1,
+        14,
+        15,
+        16,
+        4,
+        5
+      ],
+      "small_fragments": 6,
+      "outside_ratio": 0.0
+    },
+    "levels": {
+      "suicidal": 40,
+      "anxiety": 0,
+      "depression": 40
+    },
+    "overall": "🟠 Лёгкая тревожность и напряжение.",
+    "matched_ids": [
+      1,
+      14,
+      15,
+      16,
+      4,
+      5
+    ]
+  },
+  {
+    "timestamp": "2025-04-02T23:06:38.255364",
+    "filename": "8d97eda280c24747a9c1e632bf9e4d2b.png",
+    "features": {
+      "total_fill_ratio": 0.13083641249580114,
+      "left_ratio": 0.24968764231249782,
+      "right_ratio": 0.013880749652406724,
+      "fill_center": 0.0028030996258672815,
+      "outline_detected": false,
+      "outline_ratio": 5.6,
+      "num_fragments": 7,
+      "matched_fragment_ids": [
+        1,
+        14,
+        15,
+        16,
+        2,
+        4,
+        5
+      ],
+      "small_fragments": 6,
+      "outside_ratio": 0.0
+    },
+    "levels": {
+      "suicidal": 40,
+      "anxiety": 30,
+      "depression": 90
+    },
+    "overall": "🔵 Признаки депрессии. Нужно восстановление.",
+    "matched_ids": [
+      1,
+      14,
+      15,
+      16,
+      2,
+      4,
+      5
+    ]
+  },
+  {
+    "timestamp": "2025-04-02T23:06:53.135149",
+    "filename": "70a8f79f07c84aab8c45e6afa898d9fa.png",
+    "features": {
+      "total_fill_ratio": 0.18765130367298716,
+      "left_ratio": 0.3642382559347961,
+      "right_ratio": 0.013880749652406724,
+      "fill_center": 0.0028030996258672815,
+      "outline_detected": false,
+      "outline_ratio": 7.51,
+      "num_fragments": 9,
+      "matched_fragment_ids": [
+        1,
+        14,
+        15,
+        16,
+        2,
+        3,
+        4,
+        5,
+        8
+      ],
+      "small_fragments": 6,
+      "outside_ratio": 0.0
+    },
+    "levels": {
+      "suicidal": 100,
+      "anxiety": 30,
+      "depression": 100
+    },
+    "overall": "🔴 Высокий риск. Обратитесь за поддержкой.",
+    "matched_ids": [
+      1,
+      14,
+      15,
+      16,
+      2,
+      3,
+      4,
+      5,
+      8
+    ]
+  },
+  {
+    "timestamp": "2025-04-02T23:07:03.190774",
+    "filename": "94b9b33296fb42e1bf611101ba03d67b.png",
+    "features": {
+      "total_fill_ratio": 0.3326248363893297,
+      "left_ratio": 0.3642382559347961,
+      "right_ratio": 0.3015156215887024,
+      "fill_center": 0.017009718184240092,
+      "outline_detected": false,
+      "outline_ratio": 8.74,
+      "num_fragments": 11,
+      "matched_fragment_ids": [
+        1,
+        14,
+        15,
+        16,
+        18,
+        2,
+        21,
+        3,
+        4,
+        5,
+        8
+      ],
+      "small_fragments": 7,
+      "outside_ratio": 0.0
+    },
+    "levels": {
+      "suicidal": 100,
+      "anxiety": 70,
+      "depression": 100
+    },
+    "overall": "🔴 Высокий риск. Обратитесь за поддержкой.",
+    "matched_ids": [
+      1,
+      14,
+      15,
+      16,
+      18,
+      2,
+      21,
+      3,
+      4,
+      5,
+      8
+    ]
+  },
+  {
+    "timestamp": "2025-04-02T23:07:08.577955",
+    "filename": "7476c54c6a5a45c6b1b972059dfc7f8c.png",
+    "features": {
+      "total_fill_ratio": 0.4217622461862787,
+      "left_ratio": 0.3642382559347961,
+      "right_ratio": 0.47836878210210626,
+      "fill_center": 0.041009810848690535,
+      "outline_detected": false,
+      "outline_ratio": 15.32,
+      "num_fragments": 15,
+      "matched_fragment_ids": [
+        1,
+        11,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        2,
+        21,
+        23,
+        3,
+        4,
+        5,
+        8
+      ],
+      "small_fragments": 10,
+      "outside_ratio": 0.002415174748841435
+    },
+    "levels": {
+      "suicidal": 100,
+      "anxiety": 70,
+      "depression": 100
+    },
+    "overall": "🔴 Высокий риск. Обратитесь за поддержкой.",
+    "matched_ids": [
+      1,
+      11,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      2,
+      21,
+      23,
+      3,
+      4,
+      5,
+      8
+    ]
+  },
+  {
+    "timestamp": "2025-04-02T23:07:11.035909",
+    "filename": "b009329a4f2c4eb7b836b150aed64dcf.png",
+    "features": {
+      "total_fill_ratio": 0.45403264105266816,
+      "left_ratio": 0.37299594810775466,
+      "right_ratio": 0.5337768738437496,
+      "fill_center": 0.06315082297615049,
+      "outline_detected": false,
+      "outline_ratio": 16.6,
+      "num_fragments": 17,
+      "matched_fragment_ids": [
+        1,
+        11,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        2,
+        20,
+        21,
+        22,
+        23,
+        3,
+        4,
+        5,
+        8
+      ],
+      "small_fragments": 11,
+      "outside_ratio": 0.002415174748841435
+    },
+    "levels": {
+      "suicidal": 100,
+      "anxiety": 70,
+      "depression": 100
+    },
+    "overall": "🔴 Высокий риск. Обратитесь за поддержкой.",
+    "matched_ids": [
+      1,
+      11,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      2,
+      20,
+      21,
+      22,
+      23,
+      3,
+      4,
+      5,
+      8
+    ]
+  },
+  {
+    "timestamp": "2025-04-02T23:07:20.411176",
+    "filename": "d9910af7183448f19010b8c35605082e.png",
+    "features": {
+      "total_fill_ratio": 0.04322796613114337,
+      "left_ratio": 0.06063826060556522,
+      "right_ratio": 0.026095349719052707,
+      "fill_center": 0.03355611411627072,
+      "outline_detected": false,
+      "outline_ratio": 0.0,
+      "num_fragments": 1,
+      "matched_fragment_ids": [
+        14
+      ],
+      "small_fragments": 1,
+      "outside_ratio": 0.0
+    },
+    "levels": {
+      "suicidal": 35,
+      "anxiety": 40,
+      "depression": 0
+    },
+    "overall": "🟠 Лёгкая тревожность и напряжение.",
+    "matched_ids": [
+      14
+    ]
+  },
+  {
+    "timestamp": "2025-04-02T23:07:28.887530",
+    "filename": "b1decbae7a654277a8c83e4427d02c8e.png",
+    "features": {
+      "total_fill_ratio": 0.005310831315951027,
+      "left_ratio": 0.010077184460351008,
+      "right_ratio": 0.0006204970871108966,
+      "fill_center": 0.003272213406229368,
+      "outline_detected": false,
+      "outline_ratio": 0.0,
+      "num_fragments": 0,
+      "matched_fragment_ids": [],
+      "small_fragments": 0,
+      "outside_ratio": 0.0
+    },
+    "levels": {
+      "suicidal": 0,
+      "anxiety": 20,
+      "depression": 0
+    },
+    "overall": "🟢 Эмоциональный баланс в норме.",
+    "matched_ids": []
+  },
+  {
+    "timestamp": "2025-04-02T23:07:31.045318",
+    "filename": "0ab58ea28f96463996ef19d58ba22fd4.png",
+    "features": {
+      "total_fill_ratio": 0.009770307993467156,
+      "left_ratio": 0.014958138231413258,
+      "right_ratio": 0.0046652188401300745,
+      "fill_center": 0.007731690083745497,
+      "outline_detected": false,
+      "outline_ratio": 0.0,
+      "num_fragments": 1,
+      "matched_fragment_ids": [
+        14
+      ],
+      "small_fragments": 1,
+      "outside_ratio": 0.0
+    },
+    "levels": {
+      "suicidal": 35,
+      "anxiety": 40,
+      "depression": 0
+    },
+    "overall": "🟠 Лёгкая тревожность и напряжение.",
+    "matched_ids": [
+      14
+    ]
+  },
+  {
+    "timestamp": "2025-04-02T23:07:53.073464",
+    "filename": "9c7204e332084dbe919e52608ec52dd7.png",
+    "features": {
+      "total_fill_ratio": 0.058697137826786976,
+      "left_ratio": 0.06603299898410771,
+      "right_ratio": 0.05147827685660772,
+      "fill_center": 0.037980841624871135,
+      "outline_detected": false,
+      "outline_ratio": 2.29,
+      "num_fragments": 4,
+      "matched_fragment_ids": [
+        1,
+        14,
+        15,
+        16
+      ],
+      "small_fragments": 4,
+      "outside_ratio": 0.0
+    },
+    "levels": {
+      "suicidal": 40,
+      "anxiety": 0,
+      "depression": 40
+    },
+    "overall": "🟠 Лёгкая тревожность и напряжение.",
+    "matched_ids": [
+      1,
+      14,
+      15,
+      16
+    ]
+  },
+  {
+    "timestamp": "2025-04-02T23:08:03.695771",
+    "filename": "0c2987e153544a38958297604244a9e0.png",
+    "features": {
+      "total_fill_ratio": 0.06768558951965066,
+      "left_ratio": 0.06619647590466961,
+      "right_ratio": 0.06915095315246993,
+      "fill_center": 0.04696929331773482,
+      "outline_detected": false,
+      "outline_ratio": 2.29,
+      "num_fragments": 5,
+      "matched_fragment_ids": [
+        1,
+        14,
+        15,
+        16,
+        23
+      ],
+      "small_fragments": 5,
+      "outside_ratio": 0.0
+    },
+    "levels": {
+      "suicidal": 40,
+      "anxiety": 0,
+      "depression": 40
+    },
+    "overall": "🟠 Лёгкая тревожность и напряжение.",
+    "matched_ids": [
+      1,
+      14,
+      15,
+      16,
+      23
+    ]
+  },
+  {
+    "timestamp": "2025-04-02T23:08:07.361769",
+    "filename": "c8aed3d864cb465499b62324da6f84fb.png",
+    "features": {
+      "total_fill_ratio": 0.0817763775149711,
+      "left_ratio": 0.09460642931374724,
+      "right_ratio": 0.06915095315246993,
+      "fill_center": 0.04696929331773482,
+      "outline_detected": false,
+      "outline_ratio": 2.29,
+      "num_fragments": 6,
+      "matched_fragment_ids": [
+        1,
+        14,
+        15,
+        16,
+        23,
+        5
+      ],
+      "small_fragments": 6,
+      "outside_ratio": 0.0
+    },
+    "levels": {
+      "suicidal": 40,
+      "anxiety": 0,
+      "depression": 40
+    },
+    "overall": "🟠 Лёгкая тревожность и напряжение.",
+    "matched_ids": [
+      1,
+      14,
+      15,
+      16,
+      23,
+      5
+    ]
+  },
+  {
+    "timestamp": "2025-04-02T23:08:12.624543",
+    "filename": "e7f1da7d1b1645d28d65209fcde85a93.png",
+    "features": {
+      "total_fill_ratio": 0.10385368283275224,
+      "left_ratio": 0.11087238290965565,
+      "right_ratio": 0.09694692451767842,
+      "fill_center": 0.06848482040471199,
+      "outline_detected": false,
+      "outline_ratio": 2.29,
+      "num_fragments": 7,
+      "matched_fragment_ids": [
+        1,
+        14,
+        15,
+        16,
+        22,
+        23,
+        5
+      ],
+      "small_fragments": 7,
+      "outside_ratio": 0.0
+    },
+    "levels": {
+      "suicidal": 40,
+      "anxiety": 30,
+      "depression": 90
+    },
+    "overall": "🔵 Признаки депрессии. Нужно восстановление.",
+    "matched_ids": [
+      1,
+      14,
+      15,
+      16,
+      22,
+      23,
+      5
+    ]
+  },
+  {
+    "timestamp": "2025-04-02T23:11:01.970019",
+    "filename": "ec91a7e6447343978a96fb13b04a66bf.png",
+    "features": {
+      "total_fill_ratio": 0.08672234255730717,
+      "left_ratio": 0.09423276778103434,
+      "right_ratio": 0.07933170165580797,
+      "fill_center": 0.02920667647365434,
+      "outline_detected": false,
+      "outline_ratio": 4.14,
+      "num_fragments": 0,
+      "matched_fragment_ids": [],
+      "small_fragments": 0,
+      "outside_ratio": 0.0022125484505624514
+    },
+    "levels": {
+      "suicidal": 0,
+      "anxiety": 20,
+      "depression": 0
+    },
+    "overall": "🟢 Эмоциональный баланс в норме.",
+    "matched_ids": []
+  },
+  {
+    "timestamp": "2025-04-02T23:11:09.359358",
+    "filename": "ea7e9080a9344a349759b699508ccd3b.png",
+    "features": {
+      "total_fill_ratio": 0.1763057000220078,
+      "left_ratio": 0.1894113663167482,
+      "right_ratio": 0.16340905695933447,
+      "fill_center": 0.044426812458735365,
+      "outline_detected": false,
+      "outline_ratio": 4.61,
+      "num_fragments": 3,
+      "matched_fragment_ids": [
+        15,
+        22,
+        23
+      ],
+      "small_fragments": 3,
+      "outside_ratio": 0.0022125484505624514
+    },
+    "levels": {
+      "suicidal": 35,
+      "anxiety": 40,
+      "depression": 0
+    },
+    "overall": "🟠 Лёгкая тревожность и напряжение.",
+    "matched_ids": [
+      15,
+      22,
+      23
+    ]
+  },
+  {
+    "timestamp": "2025-04-02T23:11:21.796269",
+    "filename": "92809e0512c0488887bca3812589189e.png",
+    "features": {
+      "total_fill_ratio": 0.2217170722666883,
+      "left_ratio": 0.2809701187543059,
+      "right_ratio": 0.16340905695933447,
+      "fill_center": 0.044426812458735365,
+      "outline_detected": false,
+      "outline_ratio": 14.34,
+      "num_fragments": 6,
+      "matched_fragment_ids": [
+        1,
+        15,
+        2,
+        22,
+        23,
+        3
+      ],
+      "small_fragments": 4,
+      "outside_ratio": 0.0043793425757070676
+    },
+    "levels": {
+      "suicidal": 40,
+      "anxiety": 0,
+      "depression": 40
+    },
+    "overall": "🟠 Лёгкая тревожность и напряжение.",
+    "matched_ids": [
+      1,
+      15,
+      2,
+      22,
+      23,
+      3
+    ]
+  },
+  {
+    "timestamp": "2025-04-02T23:11:34.457925",
+    "filename": "28506a35462d4e0787b0bcea3d94277a.png",
+    "features": {
+      "total_fill_ratio": 0.2684952451553867,
+      "left_ratio": 0.33910951785985355,
+      "right_ratio": 0.19900720466062258,
+      "fill_center": 0.05810061042706729,
+      "outline_detected": false,
+      "outline_ratio": 16.5,
+      "num_fragments": 10,
+      "matched_fragment_ids": [
+        1,
+        15,
+        19,
+        2,
+        22,
+        23,
+        3,
+        4,
+        5,
+        8
+      ],
+      "small_fragments": 6,
+      "outside_ratio": 0.005268283755253577
+    },
+    "levels": {
+      "suicidal": 100,
+      "anxiety": 30,
+      "depression": 100
+    },
+    "overall": "🔴 Высокий риск. Обратитесь за поддержкой.",
+    "matched_ids": [
+      1,
+      15,
+      19,
+      2,
+      22,
+      23,
+      3,
+      4,
+      5,
+      8
+    ]
+  },
+  {
+    "timestamp": "2025-04-02T23:11:39.373891",
+    "filename": "f3de71d516034efdb0596d8b938534f7.png",
+    "features": {
+      "total_fill_ratio": 0.3126614388472542,
+      "left_ratio": 0.38809420941393524,
+      "right_ratio": 0.2384317510657612,
+      "fill_center": 0.07379565172066302,
+      "outline_detected": false,
+      "outline_ratio": 16.5,
+      "num_fragments": 12,
+      "matched_fragment_ids": [
+        1,
+        14,
+        15,
+        19,
+        2,
+        20,
+        22,
+        23,
+        3,
+        4,
+        5,
+        8
+      ],
+      "small_fragments": 7,
+      "outside_ratio": 0.005268283755253577
+    },
+    "levels": {
+      "suicidal": 100,
+      "anxiety": 30,
+      "depression": 100
+    },
+    "overall": "🔴 Высокий риск. Обратитесь за поддержкой.",
+    "matched_ids": [
+      1,
+      14,
+      15,
+      19,
+      2,
+      20,
+      22,
+      23,
+      3,
+      4,
+      5,
+      8
+    ]
+  },
+  {
+    "timestamp": "2025-04-02T23:11:43.708752",
+    "filename": "76052b85dd5e4acdb5212498f751d8fc.png",
+    "features": {
+      "total_fill_ratio": 0.03028390071004135,
+      "left_ratio": 0.061058629829867234,
+      "right_ratio": 0.0,
+      "fill_center": 0.0,
+      "outline_detected": false,
+      "outline_ratio": 2.84,
+      "num_fragments": 1,
+      "matched_fragment_ids": [
+        1
+      ],
+      "small_fragments": 1,
+      "outside_ratio": 0.0007908961965082913
+    },
+    "levels": {
+      "suicidal": 35,
+      "anxiety": 40,
+      "depression": 0
+    },
+    "overall": "🟠 Лёгкая тревожность и напряжение.",
+    "matched_ids": [
+      1
+    ]
+  },
+  {
+    "timestamp": "2025-04-02T23:11:45.849949",
+    "filename": "26dc8d4c7fed4c77837a2ad21ad7d653.png",
+    "features": {
+      "total_fill_ratio": 0.06125699327024429,
+      "left_ratio": 0.07712607573652192,
+      "right_ratio": 0.04564100796304595,
+      "fill_center": 0.013332097807327442,
+      "outline_detected": false,
+      "outline_ratio": 2.84,
+      "num_fragments": 1,
+      "matched_fragment_ids": [
+        1
+      ],
+      "small_fragments": 1,
+      "outside_ratio": 0.0007908961965082913
+    },
+    "levels": {
+      "suicidal": 35,
+      "anxiety": 40,
+      "depression": 0
+    },
+    "overall": "🟠 Лёгкая тревожность и напряжение.",
+    "matched_ids": [
+      1
+    ]
+  },
+  {
+    "timestamp": "2025-04-02T23:11:47.649019",
+    "filename": "6055522dccbd4641b9e387f1f0ccb52f.png",
+    "features": {
+      "total_fill_ratio": 0.09459302931671551,
+      "left_ratio": 0.0853466294562057,
+      "right_ratio": 0.10369195766830984,
+      "fill_center": 0.023641017918988105,
+      "outline_detected": false,
+      "outline_ratio": 2.84,
+      "num_fragments": 1,
+      "matched_fragment_ids": [
+        1
+      ],
+      "small_fragments": 1,
+      "outside_ratio": 0.0007908961965082913
+    },
+    "levels": {
+      "suicidal": 35,
+      "anxiety": 40,
+      "depression": 0
+    },
+    "overall": "🟠 Лёгкая тревожность и напряжение.",
+    "matched_ids": [
+      1
+    ]
+  },
+  {
+    "timestamp": "2025-04-02T23:11:54.274836",
+    "filename": "bef45f43dae04854baa014dff2a86f01.png",
+    "features": {
+      "total_fill_ratio": 0.0,
+      "left_ratio": 0.0,
+      "right_ratio": 0.0,
+      "fill_center": 0.0,
+      "outline_detected": false,
+      "outline_ratio": 0.0,
+      "num_fragments": 0,
+      "matched_fragment_ids": [],
+      "small_fragments": 0,
+      "outside_ratio": 0.0
+    },
+    "levels": {
+      "suicidal": 0,
+      "anxiety": 20,
+      "depression": 0
+    },
+    "overall": "🟢 Эмоциональный баланс в норме.",
+    "matched_ids": []
+  },
+  {
+    "timestamp": "2025-04-02T23:11:56.265661",
+    "filename": "364b734d900340cd842e180c6580a4c2.png",
+    "features": {
+      "total_fill_ratio": 0.0,
+      "left_ratio": 0.0,
+      "right_ratio": 0.0,
+      "fill_center": 0.0,
+      "outline_detected": false,
+      "outline_ratio": 0.0,
+      "num_fragments": 0,
+      "matched_fragment_ids": [],
+      "small_fragments": 0,
+      "outside_ratio": 0.0
+    },
+    "levels": {
+      "suicidal": 0,
+      "anxiety": 20,
+      "depression": 0
+    },
+    "overall": "🟢 Эмоциональный баланс в норме.",
+    "matched_ids": []
+  },
+  {
+    "timestamp": "2025-04-02T23:11:57.629596",
+    "filename": "95e376943bc24a77b9d204c976002954.png",
+    "features": {
+      "total_fill_ratio": 0.0,
+      "left_ratio": 0.0,
+      "right_ratio": 0.0,
+      "fill_center": 0.0,
+      "outline_detected": false,
+      "outline_ratio": 0.0,
+      "num_fragments": 0,
+      "matched_fragment_ids": [],
+      "small_fragments": 0,
+      "outside_ratio": 0.0
+    },
+    "levels": {
+      "suicidal": 0,
+      "anxiety": 20,
+      "depression": 0
+    },
+    "overall": "🟢 Эмоциональный баланс в норме.",
+    "matched_ids": []
+  },
+  {
+    "timestamp": "2025-04-02T23:11:59.961399",
+    "filename": "52391e68bd774f5295874d13f1e99b31.png",
+    "features": {
+      "total_fill_ratio": 0.01670276719215132,
+      "left_ratio": 0.033676245635750064,
+      "right_ratio": 0.0,
+      "fill_center": 0.0,
+      "outline_detected": false,
+      "outline_ratio": 3.94,
+      "num_fragments": 1,
+      "matched_fragment_ids": [
+        1
+      ],
+      "small_fragments": 1,
+      "outside_ratio": 0.0
+    },
+    "levels": {
+      "suicidal": 35,
+      "anxiety": 40,
+      "depression": 0
+    },
+    "overall": "🟠 Лёгкая тревожность и напряжение.",
+    "matched_ids": [
+      1
+    ]
+  },
+  {
+    "timestamp": "2025-04-02T23:18:54.641174",
+    "filename": "4596120fa9d740fe9ec7ab5844c26adf.png",
+    "features": {
+      "total_fill_ratio": 0.029780037760763555,
+      "left_ratio": 0.020668153528182253,
+      "right_ratio": 0.03874659588403599,
+      "fill_center": 0.015173803759860077,
+      "outline_detected": false,
+      "outline_ratio": 2.21,
+      "num_fragments": 5,
+      "matched_fragment_ids": [
+        1,
+        14,
+        15,
+        16,
+        23
+      ],
+      "small_fragments": 5,
+      "outside_ratio": 0.0
+    },
+    "levels": {
+      "suicidal": 40,
+      "anxiety": 0,
+      "depression": 40
+    },
+    "overall": "🟠 Лёгкая тревожность и напряжение.",
+    "matched_ids": [
+      1,
+      14,
+      15,
+      16,
+      23
+    ]
+  },
+  {
+    "timestamp": "2025-04-02T23:19:04.800980",
+    "filename": "6f73bfbfaebe406f8fd5544a25ca97d4.png",
+    "features": {
+      "total_fill_ratio": 0.0,
+      "left_ratio": 0.0,
+      "right_ratio": 0.0,
+      "fill_center": 0.0,
+      "outline_detected": false,
+      "outline_ratio": 0.0,
+      "num_fragments": 0,
+      "matched_fragment_ids": [],
+      "small_fragments": 0,
+      "outside_ratio": 0.0045819688739860516
+    },
+    "levels": {
+      "suicidal": 0,
+      "anxiety": 20,
+      "depression": 0
+    },
+    "overall": "🟢 Эмоциональный баланс в норме.",
+    "matched_ids": []
+  }
+]
