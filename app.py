@@ -580,6 +580,47 @@ def test_db():
     results = Result.query.all()
     return f"В базе сейчас {len(results)} записей"
 
+
+@app.route("/reset_db")
+def reset_db():
+    from models import db
+    db.drop_all()
+    db.create_all()
+    return "База данных сброшена и пересоздана!"
+    
+@app.route("/migrate_old_json")
+def migrate_old_json():
+    from models import Result, db
+
+    imported = 0
+    for fname in os.listdir(USER_RESULTS_DIR):
+        if fname.endswith(".json"):
+            path = os.path.join(USER_RESULTS_DIR, fname)
+            with open(path, "r", encoding="utf-8") as f:
+                data = json.load(f)
+
+            # Проверка: если уже в БД — пропустить
+            nickname = data.get("nickname")
+            if Result.query.filter_by(nickname=nickname).first():
+                continue
+
+            result = Result(
+                nickname=nickname,
+                timestamp=data.get("timestamp"),
+                image=data.get("user_image"),
+                suicidal=data.get("levels", {}).get("suicidal", 0),
+                anxiety=data.get("levels", {}).get("anxiety", 0),
+                depression=data.get("levels", {}).get("depression", 0),
+                keys=", ".join(data.get("keys", []))
+            )
+
+            db.session.add(result)
+            imported += 1
+
+    db.session.commit()
+    return f"✅ Импортировано в базу: {imported} записей."
+
+
 if __name__ == "__main__":
     with app.app_context():
         print("Подключено к БД:", app.config["SQLALCHEMY_DATABASE_URI"])
