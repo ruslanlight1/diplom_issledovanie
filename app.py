@@ -328,10 +328,10 @@ def admin_panel():
         query = query.filter(Result.nickname.ilike(f"%{user_filter}%"))
     if key_filter:
         query = query.filter(Result.keys.ilike(f"%{key_filter}%"))
-    if date_from:
-        query = query.filter(Result.timestamp >= date_from)
-    if date_to:
-        query = query.filter(Result.timestamp <= date_to)
+    #if date_from:
+    #    query = query.filter(Result.timestamp >= date_from)
+    #if date_to:
+    #    query = query.filter(Result.timestamp <= date_to)
 
     sort_column = getattr(Result, sort_by, Result.timestamp)
     if order == "desc":
