@@ -305,9 +305,9 @@ def admin_panel():
     if not session.get("admin"):
         return redirect("/login")
 
-    min_suicidal = request.args.get("suicidal", type=int)
-    min_anxiety = request.args.get("anxiety", type=int)
-    min_depression = request.args.get("depression", type=int)
+    min_suicidal = request.args.get("suicidal", type=float)
+    min_anxiety = request.args.get("anxiety", type=float)
+    min_depression = request.args.get("depression", type=float)
     user_filter = request.args.get("user", type=str)
     key_filter = request.args.get("key", type=str)
     date_from = request.args.get("date_from", type=str)
@@ -316,48 +316,41 @@ def admin_panel():
     order = request.args.get("order", default="desc")
     export = request.args.get("export") == "1"
 
+    query = Result.query
+
+    if min_suicidal is not None:
+        query = query.filter(Result.suicidal >= min_suicidal)
+    if min_anxiety is not None:
+        query = query.filter(Result.anxiety >= min_anxiety)
+    if min_depression is not None:
+        query = query.filter(Result.depression >= min_depression)
+    if user_filter:
+        query = query.filter(Result.nickname.ilike(f"%{user_filter}%"))
+    if key_filter:
+        query = query.filter(Result.keys.ilike(f"%{key_filter}%"))
+    if date_from:
+        query = query.filter(Result.timestamp >= date_from)
+    if date_to:
+        query = query.filter(Result.timestamp <= date_to)
+
+    sort_column = getattr(Result, sort_by, Result.timestamp)
+    if order == "desc":
+        sort_column = sort_column.desc()
+    else:
+        sort_column = sort_column.asc()
+
+    results = query.order_by(sort_column).all()
+
     records = []
-    for fname in os.listdir(USER_RESULTS_DIR):
-        if fname.endswith(".json"):
-            path = os.path.join(USER_RESULTS_DIR, fname)
-            with open(path, "r", encoding="utf-8") as f:
-                data = json.load(f)
-                levels = data.get("levels", {})
-                nickname = data.get("nickname", "N/A")
-                ts = data.get("timestamp", "—")
-                keys = data.get("keys", [])
-                image = data.get("user_image", "")
-                suicidal = levels.get("suicidal", 0)
-                anxiety = levels.get("anxiety", 0)
-                depression = levels.get("depression", 0)
-
-                if min_suicidal is not None and suicidal < min_suicidal:
-                    continue
-                if min_anxiety is not None and anxiety < min_anxiety:
-                    continue
-                if min_depression is not None and depression < min_depression:
-                    continue
-                if user_filter and user_filter.lower() not in nickname.lower():
-                    continue
-                if key_filter and not any(key_filter.lower() in k.lower() for k in keys):
-                    continue
-                if date_from and ts < date_from:
-                    continue
-                if date_to and ts > date_to:
-                    continue
-
-                records.append({
-                    "nickname": nickname,
-                    "timestamp": ts,
-                    "suicidal": suicidal,
-                    "anxiety": anxiety,
-                    "depression": depression,
-                    "image": image
-                })
-
-    reverse = (order == "desc")
-    if sort_by in ["nickname", "timestamp", "suicidal", "anxiety", "depression"]:
-        records.sort(key=lambda x: x[sort_by], reverse=reverse)
+    for r in results:
+        records.append({
+            "nickname": r.nickname,
+            "timestamp": r.timestamp.isoformat(),
+            "suicidal": r.suicidal,
+            "anxiety": r.anxiety,
+            "depression": r.depression,
+            "image": r.image
+        })
 
     if export:
         output = io.StringIO()
@@ -403,19 +396,18 @@ def admin_panel():
         """
 
     return f"""
-    <html>
+    <!DOCTYPE html>
+    <html lang="ru">
     <head>
         <meta charset='utf-8'>
         <title>Админ-панель</title>
         <link href='https://cdn.jsdelivr.net/npm/@unocss/reset/tailwind.min.css' rel='stylesheet'>
         <script src='https://cdn.tailwindcss.com'></script>
     </head>
-
     <body class='bg-gray-100 text-gray-800'>
     <div class='max-w-7xl mx-auto py-10 px-4'>
         <h1 class='text-3xl font-bold mb-6'>📊 Админ-панель: Результаты анализа</h1>
 
-        <!-- 🎯 Загрузка и рассылка ников -->
         <div class="bg-white p-4 rounded shadow mb-6">
             <h2 class="text-lg font-semibold mb-2">📥 Загрузка и рассылка списка ников</h2>
             <form id="uploadForm" enctype="multipart/form-data" class="flex flex-col md:flex-row md:items-center gap-4">
@@ -426,25 +418,22 @@ def admin_panel():
             <p id="statusMessage" class="text-green-600 mt-2"></p>
         </div>
 
-        <!-- 🧠 Фильтры -->
         <form method='get' class='grid grid-cols-2 md:grid-cols-4 gap-4 bg-white p-4 rounded shadow mb-6'>
-            <input type='number' name='suicidal' placeholder='Суицид ≥' value='{min_suicidal or ''}' class='border p-2 rounded'>
-            <input type='number' name='anxiety' placeholder='Тревожн ≥' value='{min_anxiety or ''}' class='border p-2 rounded'>
-            <input type='number' name='depression' placeholder='Депресс ≥' value='{min_depression or ''}' class='border p-2 rounded'>
-            <input type='text' name='user' placeholder='Никнейм' value='{user_filter or ''}' class='border p-2 rounded'>
-            <input type='text' name='key' placeholder='Ключ' value='{key_filter or ''}' class='border p-2 rounded'>
-            <input type='date' name='date_from' value='{date_from or ''}' class='border p-2 rounded'>
-            <input type='date' name='date_to' value='{date_to or ''}' class='border p-2 rounded'>
+            <input type='number' name='suicidal' placeholder='Суицид ≥' value='{min_suicidal or ""}' class='border p-2 rounded'>
+            <input type='number' name='anxiety' placeholder='Тревожн ≥' value='{min_anxiety or ""}' class='border p-2 rounded'>
+            <input type='number' name='depression' placeholder='Депресс ≥' value='{min_depression or ""}' class='border p-2 rounded'>
+            <input type='text' name='user' placeholder='Никнейм' value='{user_filter or ""}' class='border p-2 rounded'>
+            <input type='text' name='key' placeholder='Ключ' value='{key_filter or ""}' class='border p-2 rounded'>
+            <input type='date' name='date_from' value='{date_from or ""}' class='border p-2 rounded'>
+            <input type='date' name='date_to' value='{date_to or ""}' class='border p-2 rounded'>
             <button class='bg-blue-600 text-white px-4 py-2 rounded'>Фильтровать</button>
         </form>
 
-        <!-- 🔗 Кнопки -->
         <div class='flex gap-4 mb-6'>
             <a href='/admin' class='text-sm text-blue-600 hover:underline'>⛔ Сбросить</a>
             <a href='{request.full_path}&export=1' class='text-sm text-green-600 hover:underline'>⬇️ Экспорт CSV</a>
         </div>
 
-        <!-- 📄 Таблица -->
         <div class='overflow-auto bg-white rounded shadow'>
             <table class='table-auto w-full text-sm'>
                 <thead class='bg-gray-200'>
@@ -462,8 +451,6 @@ def admin_panel():
             </table>
         </div>
     </div>
-
-    <!-- 🧩 Скрипт загрузки ников -->
     <script>
     document.addEventListener("DOMContentLoaded", function () {{
         const form = document.getElementById("uploadForm");
@@ -481,8 +468,7 @@ def admin_panel():
     </script>
     </body>
     </html>
-    """
-
+"""
 
 @app.route("/admin/send_links")
 def send_links():
