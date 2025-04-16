@@ -581,14 +581,14 @@ def test_db():
     return f"В базе сейчас {len(results)} записей"
 
 
-@app.route("/reset_db")
+@app.route("/admin/reset_db")
 def reset_db():
     from models import db
     db.drop_all()
     db.create_all()
     return "База данных сброшена и пересоздана!"
     
-@app.route("/migrate_old_json")
+@app.route("/admin/migrate_old_json")
 def migrate_old_json():
     from models import Result, db
 
