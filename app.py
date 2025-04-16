@@ -328,10 +328,19 @@ def admin_panel():
         query = query.filter(Result.nickname.ilike(f"%{user_filter}%"))
     if key_filter:
         query = query.filter(Result.keys.ilike(f"%{key_filter}%"))
-    #if date_from:
-    #    query = query.filter(Result.timestamp >= date_from)
-    #if date_to:
-    #    query = query.filter(Result.timestamp <= date_to)
+    if date_from:
+       try:
+           date_from_parsed = datetime.strptime(date_from, "%Y-%m-%d")
+           query = query.filter(Result.timestamp >= date_from_parsed)
+       except ValueError:
+           pass
+
+    if date_to:
+       try:
+           date_to_parsed = datetime.strptime(date_to, "%Y-%m-%d")
+           query = query.filter(Result.timestamp <= date_to_parsed)
+       except ValueError:
+           pass
 
     sort_column = getattr(Result, sort_by, Result.timestamp)
     if order == "desc":
@@ -345,7 +354,7 @@ def admin_panel():
     for r in results:
         records.append({
             "nickname": r.nickname,
-            "timestamp": r.timestamp.isoformat(),
+            "timestamp": r.timestamp.isoformat(),  # обязательно isoformat!
             "suicidal": r.suicidal,
             "anxiety": r.anxiety,
             "depression": r.depression,
