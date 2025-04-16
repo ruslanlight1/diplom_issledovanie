@@ -403,6 +403,9 @@ def admin_panel():
                 <td class='p-2'><a href="/result/{r['nickname']}" target="_blank" class="text-blue-600 hover:underline">Открыть</a></td>
             </tr>
         """
+    print(f"🔍 Получено записей из базы: {len(records)}")
+    for r in records:
+        print(r)
 
     return f"""
     <!DOCTYPE html>
