@@ -573,5 +573,6 @@ def test_db():
 
 if __name__ == "__main__":
     with app.app_context():
+        print("Подключено к БД:", app.config["SQLALCHEMY_DATABASE_URI"])
         db.create_all()
     app.run(debug=True)
